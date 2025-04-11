@@ -9,8 +9,8 @@
 		"test": "ng test",
 		"format:fix": "prettier --config ./.prettierrc --write \"**{.ts,.js,.json,.css,.scss,.html}\"",
 		"format:check": "prettier --config ./.prettierrc --check \"**{.ts,.js,.json,.css,.scss,.html}\"",
-		"setup:git": "node ./scripts/update_git.js",
-		"prepare": "husky && npm run setup:git"
+		"setup:git": "rm -rf .git && git init && node ./scripts/update_git.js",
+		"prepare": "husky"
 	},
 	"private": true,
 	"dependencies": {
