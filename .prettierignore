@@ -1,0 +1,4 @@
+dist/**
+projects/**/assets/*
+.angular/**
+.vscode/**
