@@ -17,10 +17,10 @@ Make sure that you don't have any whitespaces in your project name.
 2. Re-init the git for your needs (so that the customer does not have the history of this git repository)
 
 ```bash
-npm run setup:git
+npm run init:git
 ```
 
-3. Let's go and develop things!
+3. Let's go and develop things! (you can now delete `scripts/update_project_name.js` if you like)
 
 ## Git Configuration
 
