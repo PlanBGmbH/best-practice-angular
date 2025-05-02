@@ -10,8 +10,7 @@
 		"format:fix": "prettier --config ./.prettierrc --write \"**{.ts,.js,.json,.css,.scss,.html}\"",
 		"format:check": "prettier --config ./.prettierrc --check \"**{.ts,.js,.json,.css,.scss,.html}\"",
 		"init:git": "rm -rf .git && git init && node ./scripts/update_git.js",
-		"setup:git": "node ./scripts/setup_git.js",
-		"prepare": "husky && npm run setup:git"
+		"prepare": "husky"
 	},
 	"private": true,
 	"dependencies": {
